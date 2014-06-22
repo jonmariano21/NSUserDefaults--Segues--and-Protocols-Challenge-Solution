@@ -10,4 +10,8 @@
 
 @interface JMViewController : UIViewController
 
+//LABELS on ViewController
+@property (strong, nonatomic) IBOutlet UILabel *usernameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *passwordLabel;
+
 @end

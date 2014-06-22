@@ -21,6 +21,8 @@
 		7E562F8D19566D690028824D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E562F6F19566D690028824D /* UIKit.framework */; };
 		7E562F9519566D690028824D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E562F9319566D690028824D /* InfoPlist.strings */; };
 		7E562F9719566D690028824D /* NSUserDefaults__Segues__and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E562F9619566D690028824D /* NSUserDefaults__Segues__and_Protocols_Challenge_SolutionTests.m */; };
+		7E562FA219566E190028824D /* JMSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E562FA119566E190028824D /* JMSignInViewController.m */; };
+		7E562FA519566E510028824D /* JMCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E562FA419566E510028824D /* JMCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7E562F9219566D690028824D /* NSUserDefaults, Segues, and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues, and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7E562F9419566D690028824D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E562F9619566D690028824D /* NSUserDefaults__Segues__and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues__and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7E562FA019566E190028824D /* JMSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSignInViewController.h; sourceTree = "<group>"; };
+		7E562FA119566E190028824D /* JMSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSignInViewController.m; sourceTree = "<group>"; };
+		7E562FA319566E510028824D /* JMCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCreateAccountViewController.h; sourceTree = "<group>"; };
+		7E562FA419566E510028824D /* JMCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				7E562F7A19566D690028824D /* JMAppDelegate.h */,
 				7E562F7B19566D690028824D /* JMAppDelegate.m */,
 				7E562F7D19566D690028824D /* Main.storyboard */,
+				7E562FA319566E510028824D /* JMCreateAccountViewController.h */,
+				7E562FA419566E510028824D /* JMCreateAccountViewController.m */,
+				7E562FA019566E190028824D /* JMSignInViewController.h */,
+				7E562FA119566E190028824D /* JMSignInViewController.m */,
 				7E562F8019566D690028824D /* JMViewController.h */,
 				7E562F8119566D690028824D /* JMViewController.m */,
 				7E562F8319566D690028824D /* Images.xcassets */,
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E562F7819566D690028824D /* main.m in Sources */,
+				7E562FA219566E190028824D /* JMSignInViewController.m in Sources */,
 				7E562F8219566D690028824D /* JMViewController.m in Sources */,
 				7E562F7C19566D690028824D /* JMAppDelegate.m in Sources */,
+				7E562FA519566E510028824D /* JMCreateAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
